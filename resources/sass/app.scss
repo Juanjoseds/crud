@@ -6,3 +6,33 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+body{
+    background: white;
+}
+
+table{
+    border: 1px solid #CED4DA;
+    border-spacing:0;
+    border-collapse: separate!important;
+    border-radius: 4px;
+
+    tr:not(:nth-child(1)):hover {
+        background-color: #FAFAFA;
+        cursor: pointer;
+    }
+    
+    th{
+        border-color:transparent!important;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: rgba(53, 64, 82, 0.50);
+        font-weight: 600;
+    }
+
+    td{
+        vertical-align: middle!important;
+
+        
+    }
+}
